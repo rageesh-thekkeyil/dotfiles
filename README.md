@@ -1,10 +1,10 @@
 # Dotfiles
 
-![Terminal Screenshot](.config/yadm/screenshot.png)
+
 
 ## Introduction
 
-@billimek dotfiles implementation leveraging the following:
+@rrageesh-thekkeyil dotfiles implementation leveraging the following:
 
 * [yadm](https://thelocehiliosan.github.io/yadm/) - wrapper around the got sparse repo concept instead of symlinks
 * [zgen](https://github.com/tarjoilija/zgen) - lightweight zsh plugin system
@@ -15,7 +15,7 @@
 ### One-liner
 
 ```console
-curl -fsSL https://raw.githubusercontent.com/billimek/dotfiles/master/.config/yadm/setup.sh | sh -
+curl -fsSL https://raw.githubusercontent.com/rageesh-thekkeyil/dotfiles/master/.config/yadm/setup.sh | sh -
 ```
 
 ### Manual installation
@@ -58,10 +58,3 @@ Before doing `yadm clone ...`, remove all of the old symlinks from the home dire
 find "$HOME" -maxdepth 1 -type l -name ".*" -delete
 ```
 
-## TODO
-
-* iterm2 stuff (themes, etc) - is this necessary with cloud-based iterm config settings?
-* extra vim configuration (plugins)???
-* linux fonts?
-* macos defaults code settings
-* ruby stuff
