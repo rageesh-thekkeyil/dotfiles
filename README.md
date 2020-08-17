@@ -58,3 +58,5 @@ Before doing `yadm clone ...`, remove all of the old symlinks from the home dire
 find "$HOME" -maxdepth 1 -type l -name ".*" -delete
 ```
 
+### Thanks to the repo from billimek 
+```https://github.com/billimek/dotfiles```
