@@ -81,3 +81,11 @@ alias cassandra-retail-dev="gcloud compute ssh cassandra-pricing-us-east1-c-seed
 alias cassandra-retail-stage="gcloud compute ssh cassandra-pricing-us-central1-b-seed-1 --tunnel-through-iap --zone us-central1-b --project hd-pricing-stage  --ssh-flag=\"-L9042:localhost:9042\""
 alias cassandra-cost-dev="gcloud compute ssh cassandra-cost-us-east1-c-seed-1 --tunnel-through-iap --zone us-east1-c --project hd-pricing-dev  --ssh-flag=\"-L9042:localhost:9042\""
 alias cassandra-cost-stage="gcloud compute ssh cassandra-cost-cluster-us-central1-b-seed-1 --tunnel-through-iap --zone us-central1-b --project hd-pricing-stage  --ssh-flag=\"-L9042:localhost:9042\""
+
+#suffix aliases to launch using vscode
+#Markdown files
+alias -s md=code
+#JSON files
+alias -s json=code
+#YAML files
+alias -s {yaml,yml}=code
